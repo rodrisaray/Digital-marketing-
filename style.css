@@ -1,0 +1,119 @@
+/* Basic styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* About Section */
+#about {
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #e9ecef;
+  padding: 50px;
+  text-align: center;
+}
+
+#skills ul {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px;
+  background-color: white;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #e9ecef;
+  padding: 50px;
+  text-align: center;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact form label {
+  display: block;
+  margin-top: 10px;
+}
+
+#contact form input, #contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#contact form button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
